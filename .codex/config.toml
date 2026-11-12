@@ -1,0 +1,457 @@
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+
+notify = ["/Users/chenxinyi/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
+personality = "pragmatic"
+web_search = "live"
+sandbox_mode = "danger-full-access"
+service_tier = "default"
+approval_policy = "never"
+approvals_reviewer = "user"
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = "/Users/chenxinyi/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+source_type = "local"
+source = "/Users/chenxinyi/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[projects."/Users/chenxinyi/Documents/New project"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-07-31/new-chat"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-07-31/new-chat-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-07-31/new-chat-3"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-01/kan"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/documents-plugin-documents-openai-primary-runtime"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/xin"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/manage-personal-knowledge"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/y"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/wo-m"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/ni-r"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/skill"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/wo-xi"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/project-solve"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/project-solve-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-19/amann"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-20/wo-j"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-21/element"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-21/na"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-21/a-vector-space-has-a-unique"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-21/zuo"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-21/wo"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Desktop/Code"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-22/implement-a-program-in-python-that"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-22/chenxinyi-chenxinyidemacbook-pro-code-cd-cs50p"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-22/ai"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-22/x20-a"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-23/2-mac-apple-reminders-apple-shortcuts"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-24/lamda-0-lamda-for-all-lamda"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-24/wo-d"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-24/u-l"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-24/hatch-pet-users-chenxinyi-codex-skills"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-24/hatch-pet-users-chenxinyi-codex-skills-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-25/zhe-l"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-25/xian"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-25/zhe"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-25/zhe-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-25/zhe-3"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-25/zhe-l-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-25/qin"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-26/ni"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-26/nix"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-26/z"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-26/install-github-cli-gh-on-this"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-27/wo-d"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-27/a-be"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-27/wo-h"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-27/flclash-1-2-dns-3-4"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-27/referenced-chatgpt-conversation-this-is-an"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-27/def-main-x20-greet-input-what"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-28/referenced-chatgpt-conversation-this-is-an"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-28/review-what-i-worked-on-this"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-31/zhe-l"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-31/hua"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-31/shen"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-31/p"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-31/files-mentioned-by-the-user-screenshot"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-08-31/zhi"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-01/wod"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-01/wo-z"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-02/2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-03/zhe"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-03/wo"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-04/review-what-i-worked-on-this"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-04/de"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-05/zhe"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-06/jian"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-08/zhe"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-09/wo"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-09/new-chat"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-10/wox"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-11/x20"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-11/x20-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-11/pan"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-12/referenced-chatgpt-conversation-this-is-an"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-12/shen"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-14/shen"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-15/zhe-l"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-15/cha"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-16/files-mentioned-by-the-user-screenshot"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-16/zhe"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-16/files-mentioned-by-the-user-screenshot-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-17/months-january-1-february-2-march"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-18/ran"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-18/import-sys-import-random-from-pyfiglet"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-19/dui"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-19/wo-z"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-19/maya"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-19/zhe"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-19/zhe-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-19/zhe-3"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-20/hu-e"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-21/ga-m"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-21/zhe"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-21/referenced-chatgpt-conversation-this-is-an"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-21/xian"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-21/sha"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-23/re"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-25/new-chat"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-25/new-chat-2"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/Codex/2026-09-26/new-chat"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/LAB/CS50P/Repositories"]
+trust_level = "trusted"
+
+[projects."/Users/chenxinyi/Documents/LAB/CS50X"]
+trust_level = "trusted"
+
+[desktop]
+sansFontSize = 14
+dock-icon-preference = "app-default"
+conversationDetailMode = "STEPS_COMMANDS"
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "ultra", "max"]
+appearanceLightCodeThemeId = "github"
+appearanceDarkCodeThemeId = "github"
+selected-avatar-id = "pet_6abbc9a942188191a4f0b35d6d68ff5c"
+avatar-overlay-mascot-width-px = 139
+external-agent-import-sync-enabled = true
+notifications-turn-mode = "always"
+keepRemoteControlAwakeWhilePluggedIn = true
+codeFontSize = 13
+ambient-suggestions-enabled = true
+avatar-overlay-pet-visible = false
+migratedFollowUpQueueToSteer = true
+
+[desktop.appearanceLightChromeTheme]
+accent = "#0969da"
+contrast = 45
+ink = "#1f2328"
+opaqueWindows = true
+surface = "#ffffff"
+
+[desktop.appearanceLightChromeTheme.fonts]
+ui = '"SF Pro"'
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#1a7f37"
+diffRemoved = "#cf222e"
+skill = "#8250df"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#1f6feb"
+contrast = 60
+ink = "#e6edf3"
+opaqueWindows = false
+surface = "#0d1117"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+ui = '"SF Pro"'
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#3fb950"
+diffRemoved = "#f85149"
+skill = "#bc8cff"
+
+[features]
+js_repl = false
+memories = true
+
+[mcp_servers.node_repl]
+args = []
+command = "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node_repl"
+env_vars = ["BROWSER_USE_ACCESS_EXECUTOR_ID", "BROWSER_USE_ACCESS_PIPE_PATH", "BROWSER_USE_ACCESS_VERIFYING_IDENTITY"]
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = "/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules"
+NODE_REPL_NODE_PATH = "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node"
+NODE_REPL_TRUSTED_CODE_PATHS = "/Users/chenxinyi/.codex:/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules"
+CODEX_HOME = "/Users/chenxinyi/.codex"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab,mcpapps"
+BROWSER_USE_TINYSKY_ENABLED = "1"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE = ""
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.1106.51428"
+NODE_REPL_TRUSTED_SERVICES = '{"browser":"/Users/chenxinyi/.codex/plugins/cache/openai-bundled/browser/26.1106.51428/scripts/browser-service.mjs","sky":"@oai/sky/service"}'
+SKY_CUA_SERVICE_PATH = "/Users/chenxinyi/.codex/computer-use/Codex Computer Use.app"
+CODEX_CLI_PATH = "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex"
+
+[mcp_servers.computer-use]
+command = "./Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient"
+args = ["mcp"]
+cwd = "."
+enabled = false
+
+[shell_environment_policy.set]
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "9230e2bd8b24b7ac7a0ba6774c64bf0d78ecdabbdd91d0ed627b02a587bae2df"
+
+[memories]
+generate_memories = true
+use_memories = true
+
+[[skills.config]]
+path = "/Users/chenxinyi/.codex/skills/hatch-pet/SKILL.md"
+enabled = false
+
+[tui]
+screen_reader_detection_done = true
+
+[tui.model_availability_nux]
+"gpt-6.1-sol" = 4

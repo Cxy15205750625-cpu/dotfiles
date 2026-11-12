@@ -1,0 +1,27 @@
+{
+    "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "editor.fontFamily": "JetBrains Mono, SF Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 17,
+    "terminal.integrated.fontSize": 15,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "selection",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#7C8799",
+        "strings": "#A3BE8C",
+        "numbers": "#D8A657",
+        "keywords": "#D16D8D",
+        "functions": "#B48EDE",
+        "types": "#63B3C4",
+        "variables": "#D7DEE9"
+    },
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Xcode Civic (Dark)",
+    "workbench.preferredDarkColorTheme": "Xcode Midnight (Dark)",
+    "workbench.preferredLightColorTheme": "Xcode Classic (Light)"
+}

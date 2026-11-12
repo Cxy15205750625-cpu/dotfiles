@@ -1,0 +1,67 @@
+[
+  {
+    "appBundleURL" : "file:\/\/\/Applications\/Visual%20Studio%20Code.app\/",
+    "appDisplayName" : "Visual Studio Code.app",
+    "shortcut" : "shift+ctrl+alt+cmd+v"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/Applications\/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.app\/",
+    "appDisplayName" : "哔哩哔哩.app",
+    "shortcut" : "shift+ctrl+alt+cmd+b"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/Applications\/ChatGPT.app\/",
+    "appDisplayName" : "ChatGPT.app",
+    "shortcut" : "shift+ctrl+alt+cmd+c"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/Applications\/Obsidian.app\/",
+    "appDisplayName" : "Obsidian.app",
+    "shortcut" : "shift+ctrl+alt+cmd+o"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/Applications\/Ghostty.app\/",
+    "appDisplayName" : "Ghostty.app",
+    "shortcut" : "shift+ctrl+alt+cmd+g"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/System\/Volumes\/Preboot\/Cryptexes\/App\/System\/Applications\/Safari.app\/",
+    "appDisplayName" : "Safari.app",
+    "shortcut" : "shift+ctrl+alt+cmd+s"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/System\/Applications\/Reminders.app\/",
+    "appDisplayName" : "Reminders.app",
+    "shortcut" : "shift+ctrl+alt+cmd+r"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/System\/Applications\/Notes.app\/",
+    "appDisplayName" : "Notes.app",
+    "shortcut" : "shift+ctrl+alt+cmd+n"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/System\/Applications\/Music.app\/",
+    "appDisplayName" : "Music.app",
+    "shortcut" : "shift+ctrl+alt+cmd+m"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/Applications\/Sourcetree.app\/",
+    "appDisplayName" : "Sourcetree.app",
+    "shortcut" : "ctrl+alt+cmd+s"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/Applications\/FlClash.app\/",
+    "appDisplayName" : "FlClash.app",
+    "shortcut" : "shift+ctrl+alt+cmd+f"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/Applications\/Emacs.app\/",
+    "appDisplayName" : "Emacs.app",
+    "shortcut" : "shift+ctrl+alt+cmd+e"
+  },
+  {
+    "appBundleURL" : "file:\/\/\/System\/Applications\/Preview.app\/",
+    "appDisplayName" : "Preview.app",
+    "shortcut" : "shift+ctrl+alt+cmd+p"
+  }
+]
