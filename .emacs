@@ -14,8 +14,10 @@
 (setq custom-file "~/.emacs.custom")
 (load custom-file t)
 
-;; 用个人配色覆盖主题，重新启用主题时注释也保持淡灰色。
+;; 用个人配色覆盖主题。背景色取自 Ghostty 截图，注释保持淡灰色。
 (custom-set-faces
+ '(default ((t (:background "#011728"))))
+ '(fringe ((t (:background "#011728"))))
  '(font-lock-comment-face ((t (:foreground "#858585" :box nil))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#858585" :box nil)))))
 
