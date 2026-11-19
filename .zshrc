@@ -127,15 +127,7 @@ openGamehub() {
   fi
   nohup python3 "$HOME/.local/share/gamehub-steam-443/gamehub_steam_443.py" \
     >"$HOME/Library/Logs/gamehub-steam-443.log" 2>&1 </dev/null &!
-}
-
-## Sync config
-sync_zshrc(){
-  local repo="$HOME/Documents/dotfiles"
-
-  cp "$HOME/.zshrc" "$repo/.zshrc" &&
-    git -C "$repo" status --short -- .zshrc
-}
+}  
 
 # makefile
 
