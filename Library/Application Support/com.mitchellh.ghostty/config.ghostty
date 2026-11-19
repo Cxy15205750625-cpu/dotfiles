@@ -1,0 +1,23 @@
+# 字体：Comic Mono，中英文与终端图标
+font-family = Comic Mono
+window-title-font-family = Comic Sans MS
+
+# 字号：21 点
+font-size = 21
+
+# 普通窗口的初始大小：100 列、35 行
+window-width = 85
+window-height = 35
+
+# 全局快速终端：Command + 反引号键（与 ~ 同一个键，不加 Shift）
+keybind = global:super+grave_accent=toggle_quick_terminal
+
+# 窗口留白：文字与四周边缘保持 15 点距离
+window-padding-x = 15
+window-padding-y = 15
+
+# Night Owl：深海军蓝底色，搭配蓝、青绿和紫色
+theme = Night Owl
+
+# 光标移动时短暂拉伸并回弹。
+custom-shader = shaders/cursor_warp.glsl
