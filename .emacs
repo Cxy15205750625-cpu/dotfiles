@@ -10,16 +10,18 @@
 (package-initialize)
 
 ;; Custom 与主题
-;; 初始化软件包后再加载 Custom，才能找到其中启用的 gruber-darker 主题。
+;; 初始化软件包后再加载 .custom， 放这个文件是因为 emacs 会乱改.emacs . 加载后找到要用的主题。
 (setq custom-file "~/.emacs.custom")
 (load custom-file t)
 
-;; 用个人配色覆盖主题。背景色取自 Ghostty 截图，注释保持淡灰色。
-(custom-set-faces
- '(default ((t (:background "#011728"))))
- '(fringe ((t (:background "#011728"))))
- '(font-lock-comment-face ((t (:foreground "#858585" :box nil))))
- '(font-lock-comment-delimiter-face ((t (:foreground "#858585" :box nil)))))
+;; 禁用之前启用的主题, use new.
+(mapc #'disable-theme custom-enabled-themes)
+(load-theme 'modus-vivendi t)
+
+;; 用个人配色覆盖主题。注释保持淡灰色。
+;; (custom-set-faces
+;; '(font-lock-comment-face ((t (:foreground "#858585" :box nil))))
+;; '(font-lock-comment-delimiter-face ((t (:foreground "#858585" :box nil)))))
 
 ;; 字体与窗口
 ;; 默认使用 Comic Mono 20 号，text-mode 启用 Comic Sans MS 比例字体。
@@ -29,7 +31,7 @@
 (add-hook 'text-mode-hook #'variable-pitch-mode)
 
 ;; 新窗口默认 80 列、35 行。
-(add-to-list 'default-frame-alist '(width . 80))
+(add-to-list 'default-frame-alist '(width . 90))
 (add-to-list 'default-frame-alist '(height . 35))
 
 ;; 图形界面隐藏工具栏、菜单栏和滚动条。
@@ -40,10 +42,6 @@
 
 ;; 行号、当前行高亮与光标
 (global-display-line-numbers-mode 1)
-(global-hl-line-mode 1)
-
-;; 启用 hl-line 后设置当前行底色。
-(set-face-attribute 'hl-line nil :background "#242424")
 
 ;; 方块光标。想用 2 像素宽的竖线，可以改为 '(bar . 2)。
 (setq-default cursor-type 'box)
@@ -115,6 +113,10 @@
 (unless (featurep 'company)
   (message "company 未安装：联网后执行 M-x package-install RET company RET"))
 
+;;Vim
+(require 'evil)
+(evil-mode 1)
+
 ;; lolipop 光标动画
 ;; 使用本机编译的 macOS 模块，编译步骤见包目录里的 README。
 (add-to-list 'load-path "~/.emacs.d/site-lisp/lolipop")
@@ -127,3 +129,4 @@
 ;; Ido 用于交互式选择文件和缓冲区。
 (ido-mode 1)
 (ido-everywhere 1)
+
